@@ -10,8 +10,10 @@ for (let anim in animals) {
   console.log(animals[anim]['name']);
   console.log(animals[anim]['SciName']);
   console.log(animals[anim]['Desc']);
-  outputEl.innerHTML = outputEl.innerHTML + ' ' + animals[anim]['Desc'];
-
+  // outputEl.innerHTML = outputEl.innerHTML + ' ' + animals[anim]['Desc'];
+  let output2 = document.createElement('anim');
+  output2.setAttribute("id", anim);
+  output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />' + "<p>"+animals[anim]['name']+ "<p></p>" + animals[anim]['SciName'] +"</p>" + animals[anim]['Desc'] + "<p></p>";
   // kist = [];
   // anim = anim.toString();
   // console.log(animals[anim]);
@@ -22,10 +24,10 @@ for (let anim in animals) {
   //   document.createElement('name');
   //   news.name.innerHTML = "How about now?";
 // }
-
+  document.body.appendChild(output2);
 }
 
-document.body.appendChild(outputEl);
+// document.body.appendChild(outputEl);
 
 // var outputEl = document.getElementById("output");
 // outputEl.innerHTML = "How about now?";
