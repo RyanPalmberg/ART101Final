@@ -2,7 +2,7 @@
 
 var animals = {
   Squirrel: {name: 'Grey Squirrel', SciName: 'Sciurus carolinensis', Desc: 'Squirrel commonly found throughout the West coast.'},
-  Coyote: {name: 'Valley Coyote', SciName: 'Canis latrans', Desc: 'Coyote commonly found throughout all of California.'},
+  Coyote: {name: 'Valley Coyote', SciName: 'Canis latrans', Desc: 'Valley Coyotes are one of the most common mammals in North America. They take habitat in Canada, North America, and some parts of Central America. They are known to travel far distances, up to a hundred miles a day, if food sources are scarce.'},
   BrushRabbit: {name: 'Brush Rabbit', SciName: 'Sylvilagus bachmani', Desc: ''},
   MuleDeer: {name: 'Mule Deer', SciName: 'Odocoileus hemionus', Desc: ''},
   Sealion: {name: 'California Sea Lion', SciName: 'Zalophus californianous', Desc: ''},

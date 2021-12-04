@@ -15,6 +15,9 @@ for (let anim in animals) {
   // outputEl.innerHTML = outputEl.innerHTML + ' ' + animals[anim]['Desc'];
   let output2 = document.createElement('div');
   output2.setAttribute("id", 'anim');
-  output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />'+"<p><h2>"+animals[anim]['name']+ "</h2><br>" + animals[anim]['SciName'] +"<br>" + animals[anim]['Desc'] + "<br><br></p>";
+  output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />'+"<p><h2>"+animals[anim]['name']+ "</h2><br>" + '<h3>'+animals[anim]['SciName'] +"</h3><br>" + animals[anim]['Desc'] + "<br><br></p>";
+  let output3 = document.createElement('div');
+  output3.innerHTML = '<p></p>'
   document.body.appendChild(output2);
+  document.body.appendChild(output3);
 }

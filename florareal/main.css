@@ -1,0 +1,29 @@
+h1 {
+  font-size: 150%;
+  font-family: Times; color: Green;
+}
+h2 {
+  font-size: 100%;
+  font-family: Times; color: Black;
+}
+h3 {
+  font-size: 175%;
+  font-family: Times; color: Crimson
+}
+p {
+  font-size: 100%;
+  font-family: Times; color: Black;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+#smol {
+  width: 500px;
+}
+#anim {
+  border: 1px solid Crimson;
+  /* background-color: lightgrey; */
+  width: 50%;
+  /* border: 1px solid green; */
+  padding-left: : 100px;
+  margin: 50px;
+}

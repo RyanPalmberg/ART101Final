@@ -28,7 +28,7 @@ p {
   padding-top: 30px;
 }
 #anim {
-  border: 1px solid Crimson;
+  border: 1px solid lightgrey;
   background-color: lightgrey;
   width: 550px;
   /* border: 1px solid green; */
