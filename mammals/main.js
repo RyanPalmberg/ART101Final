@@ -24,8 +24,10 @@ for (let anim in animals) {
   let output2 = document.createElement('div');
   output2.setAttribute("id", 'anim');
   // output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />' + "<p>"+animals[anim]['name']+ "<p></p>" + animals[anim]['SciName'] +"</p>" + animals[anim]['Desc'] + "<p></p>";
-  output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />'+"<p><h2>"+animals[anim]['name']+ "</h2><br>" + animals[anim]['SciName'] +"<br>" + animals[anim]['Desc'] + "<br><br></p>";
+  output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />'+"<p><h2>"+animals[anim]['name']+ "</h2><br>" + '<h3>'+animals[anim]['SciName'] +"</h3><br>" + animals[anim]['Desc'] + "<br><br></p>";
   // kist = [];
+  let output3 = document.createElement('div');
+  output3.innerHTML = '<p></p>'
   // anim = anim.toString();
   // console.log(animals[anim]);
   // let news = animals[anim];
@@ -36,6 +38,7 @@ for (let anim in animals) {
   //   news.name.innerHTML = "How about now?";
 // }
   document.body.appendChild(output2);
+  document.body.appendChild(output3);
 }
 
 // document.body.appendChild(outputEl);

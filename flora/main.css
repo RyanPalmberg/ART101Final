@@ -21,8 +21,8 @@ p {
 }
 #anim {
   border: 1px solid Crimson;
-  /* background-color: lightgrey; */
-  width: 50%;
+  background-color: cyan;
+  width: 500px;
   /* border: 1px solid green; */
   padding-left: : 100px;
   margin: 50px;
