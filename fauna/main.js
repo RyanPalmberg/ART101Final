@@ -1,8 +1,18 @@
 // document.writeln('Fauna <br>');
 
 var animals = {
-  Squirrel: {name: 'Grey Squirrel', SciName: 'rodentia shit idk', Desc: 'Squirrel commonly found throughout the West coast.'},
-  Coyote: {name: 'Valley Coyote', SciName: 'Canis Sandwich', Desc: 'Goddam trash dog.'}
+  Squirrel: {name: 'Grey Squirrel', SciName: 'Sciurus carolinensis', Desc: 'Squirrel commonly found throughout the West coast.'},
+  Coyote: {name: 'Valley Coyote', SciName: 'Canis latrans', Desc: 'Coyote commonly found throughout all of California.'},
+  BrushRabbit: {name: 'Brush Rabbit', SciName: 'Sylvilagus bachmani', Desc: ''},
+  MuleDeer: {name: 'Mule Deer', SciName: 'Odocoileus hemionus', Desc: ''},
+  Sealion: {name: 'California Sea Lion', SciName: 'Zalophus californianous', Desc: ''},
+  Seal: {name: 'Harbor Seal', SciName: 'Phoca vitalina', Desc: ''},
+  Otter: {name: 'Sea Otter', SciName: 'Enhydra lutris', Desc:''},
+  Cougar: {name: 'Mountain Lion', SciName: 'Puma concolor', Desc: ''},
+  Skunk: {name: 'Striped Skunk', SciName: 'Mephitis mephitis', Desc: ''},
+  Gopher: {name: "Botta's Pocket Gopher", SciName: 'Thomomys bottae', Desc: ''},
+  Mouse: {name: 'California Mouse', SciName: 'Peromyscus californicus', Desc: ''},
+  Bat: {name: 'Hoary Bat', SciName: 'Lasiurus cinereus', Desc: ''}
 }
 var outputEl = document.getElementById("output");
 for (let anim in animals) {
@@ -11,9 +21,10 @@ for (let anim in animals) {
   console.log(animals[anim]['SciName']);
   console.log(animals[anim]['Desc']);
   // outputEl.innerHTML = outputEl.innerHTML + ' ' + animals[anim]['Desc'];
-  let output2 = document.createElement('anim');
-  output2.setAttribute("id", anim);
-  output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />' + "<p>"+animals[anim]['name']+ "<p></p>" + animals[anim]['SciName'] +"</p>" + animals[anim]['Desc'] + "<p></p>";
+  let output2 = document.createElement('div');
+  output2.setAttribute("id", 'anim');
+  // output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />' + "<p>"+animals[anim]['name']+ "<p></p>" + animals[anim]['SciName'] +"</p>" + animals[anim]['Desc'] + "<p></p>";
+  output2.innerHTML = '<img id="smol" src="img/animals_hero_ladybug.jpg" />'+"<p><h2>"+animals[anim]['name']+ "</h2><br>" + animals[anim]['SciName'] +"<br>" + animals[anim]['Desc'] + "<br><br></p>";
   // kist = [];
   // anim = anim.toString();
   // console.log(animals[anim]);
