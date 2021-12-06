@@ -1,18 +1,51 @@
 h1 {
-  font-size: 150%;
-  font-family: Times; color: Green;
+  font-size: 190%;
+  font-family: Times; color: #682B5C;
+  text-align: center;
 }
 h2 {
   font-size: 100%;
   font-family: Times; color: Black;
+  text-align: center;
 }
 h3 {
-  font-size: 175%;
+  font-size: 125%;
   font-family: Times; color: Crimson
+  /* text-align: center; */
 }
 p {
   font-size: 100%;
   font-family: Times; color: Black;
-  text-indent: 20px;
-  margin-left: 10px;
+  /* text-indent: 20px; */
+  /* margin-left: 10px; */
+}
+body {
+  background-color: #C7E6E8;
+}
+#smol {
+  width: 500px;
+}
+#anim {
+  border: 1px solid Crimson;
+  /* background-color: lightgrey; */
+  /* width: 50%; */
+  /* border: 1px solid green; */
+  /* padding-left: : 100px; */
+  margin: 50px;
+}
+#rp {
+  /* float: right; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 510px;
+}
+#lp {
+  /* float: left; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 510px;
+}
+
+.listofLabs {
+  text-align: center;
 }
