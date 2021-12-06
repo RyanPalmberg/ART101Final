@@ -1,6 +1,7 @@
 h1 {
   font-size: 150%;
-  font-family: Times; color: Green;
+  font-family: Times; color: Black;
+  text-align: center;
 }
 h2 {
   font-size: 100%;
@@ -28,12 +29,15 @@ p {
   padding-top: 30px;
 }
 #anim {
-  border: 1px solid lightgrey;
-  background-color: lightgrey;
+  border: 1px solid #AEDC85;
+  background-color: #AEDC85;
   width: 550px;
   /* border: 1px solid green; */
   /* padding-left: : 100px; */
   /* padding-bottom: : 30px; */
   margin-left: auto;
   margin-right: auto;
+}
+body {
+  background-color: #72B280;
 }

@@ -1,7 +1,8 @@
 h1 {
   font-size: 180%;
-  font-family: Times; color: Green;
+  font-family: Times; color: Black;
   text-align: center;
+  color: #55a589;
 }
 h2 {
   font-size: 100%;
@@ -17,6 +18,9 @@ p {
   font-family: Times; color: Black;
   text-indent: 20px;
   margin-left: 10px;
+}
+body {
+  background-color: #FFECAA;
 }
 #smol {
   width: 500px;
